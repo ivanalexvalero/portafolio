@@ -180,7 +180,7 @@ header .categorias a {
      align-items: center;
      justify-content: center;
      text-align: center;
-     margin-top:40px;
+     
      
  }
  .overlay.activo {
@@ -209,7 +209,7 @@ header .categorias a {
      /*Pone el objeto al extremo derecho */
      left: 53%;
      right: 0;
-     top: -3%;
+     top: 0%;
      
  }
 
