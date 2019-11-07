@@ -1,0 +1,148 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+/*Header*/
+
+header {
+    padding: 40px 0;
+}
+
+header .logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header .logo h1 {
+   font-family: 'Varela Round', sans-serif; 
+   color: #ffffff;
+}
+
+
+header .logo p {
+    color: #ffffff;
+    font-size: 16px;
+}
+header form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+header .barra-busqueda {
+    width: 50%;
+    height: 35px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 0 20px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+header .titulos, header .categorias {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header .titulos a {
+    color: #9b9b9b;
+    font-size: 16px;
+    margin: 10px 20px;
+}
+header .titulos {
+    margin-bottom: 8px;
+}
+header .categorias a {
+    color: #9b9b9b;
+    margin: 10px 20px;
+    font-size: 14px;
+}
+ header .titulos .active, header .categorias .active {
+     color: #ffffff;
+ }
+
+ header .redes-sociales img {
+    height: 24px;
+    margin: 10px;
+ }
+ header .redes-sociales  {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ }
+
+.main .datos {
+    color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main .datos h3 {
+    font-weight: 100;
+}
+
+.main .los-datos {
+    flex: 1 1 40%;
+}
+
+.main .mapa {
+    flex: 1 1 60%;
+}
+
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 18px;
+}
+
+.footer .data {
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    /*margin-top: 10vh;*/
+}
+
+@media (max-width: 800px) { 
+    .main .datos {
+        flex-wrap: wrap;
+    }
+    .main .mapa {
+        flex: 1 1 70%;
+    }
+
+    .main .los-datos {
+        margin-bottom: 40px;
+    }
+    .footer {
+        margin-top: 120px;
+    }
+}
