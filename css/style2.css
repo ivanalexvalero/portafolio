@@ -67,6 +67,11 @@ header .titulos a {
     font-size: 16px;
     margin: 10px 20px;
 }
+
+header .titulos a:hover {
+    color: #ffffff;
+}
+
 header .titulos {
     margin-bottom: 8px;
 }
@@ -189,7 +194,7 @@ header .categorias a {
  }
 
  .overlay .contenedor-img img {
-    width: 45%;
+    width: 48%;
  }
 
  .contenedor-img {
@@ -209,7 +214,7 @@ header .categorias a {
      /*Pone el objeto al extremo derecho */
      left: 53%;
      right: 0;
-     top: 0%;
+     top: -3%;
      
  }
 

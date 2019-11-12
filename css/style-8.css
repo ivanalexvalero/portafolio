@@ -1,0 +1,158 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+/*Header*/
+
+header {
+    padding: 40px 0;
+}
+
+header .logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header .logo h1 {
+   font-family: 'Varela Round', sans-serif; 
+   color: #000000;
+}
+
+
+header .logo p {
+    color: #000000;
+    font-size: 16px;
+}
+header form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+header .barra-busqueda {
+    width: 50%;
+    height: 35px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 0 20px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+header .titulos, header .categorias {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header .titulos a {
+    color: #9d9d9d;
+    font-size: 16px;
+    margin: 10px 20px;
+}
+
+header .titulos a:hover {
+    color: #000000;
+}
+
+header .titulos {
+    margin-bottom: 8px;
+}
+header .categorias a {
+    color: #9b9b9b;
+    margin: 10px 20px;
+    font-size: 14px;
+}
+ header .titulos .active, header .categorias .active {
+     color: #000000;
+ }
+
+ header .redes-sociales img {
+    height: 24px;
+    margin: 10px;
+ }
+ header .redes-sociales  {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ }
+
+ /*Imagenes*/
+
+ .una-foto .logo  {
+    max-width: 1400px;
+    width: 100%;
+    margin-bottom: 20px;
+ }
+
+  .una-foto img {
+    max-width: 1400px;
+    width: 90%;
+    margin-bottom: 20px;
+ }
+
+ .una-foto {
+     margin: auto;
+     text-align: center;
+ }
+
+ .imagenes  {
+     display: flex;
+     width: 100%;
+     margin: auto;
+     text-align: center;
+ }
+
+  h1 {
+     color: #000000;
+     font-size: 18px;
+     margin-bottom: 5px;
+     
+     text-align: center;
+     
+ }
+ iframe {
+    flex: 1 1 50%;
+    padding: 5px ;
+ }
+
+
+
+  /*Footer*/
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 18px;
+}
+
+.footer .data {
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    /*margin-top: 10vh;*/
+}

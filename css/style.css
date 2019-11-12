@@ -67,6 +67,11 @@ header .titulos a {
     font-size: 16px;
     margin: 10px 20px;
 }
+
+header .titulos a:hover {
+    color: #ffffff;
+}
+
 header .titulos {
     margin-bottom: 8px;
 }
@@ -75,6 +80,11 @@ header .categorias a {
     margin: 10px 20px;
     font-size: 14px;
 }
+
+header .categorias a:hover {
+    color: #ffffff;
+}
+
  header .titulos .active, header .categorias .active {
      color: #ffffff;
  }
@@ -121,6 +131,10 @@ header .categorias a {
      cursor: pointer;
      vertical-align: top;
  }
+
+ .grid .item img:hover {
+     filter: brightness(0.7);
+}
 
  /*Media Queries*/
 
