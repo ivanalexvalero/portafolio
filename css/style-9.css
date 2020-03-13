@@ -121,6 +121,23 @@ header .categorias a {
     margin-bottom: 40px;
 }
 
+.una-foto2 a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #E30613;
+}
+
+.una-foto2 h2 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.una-foto2 {
+    
+    margin: auto;
+    text-align: center;
+}
+
  .imagenes  {
      display: flex;
      width: 100%;
@@ -135,6 +152,11 @@ header .categorias a {
      
      
  }
+
+ .imagenes {
+     margin-top: 25px;
+ }
+
  .imagenes .uno img {
     width: 90%;
  }
