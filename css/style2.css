@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 body {
-    background: #000000;
+    /*background: #000000;*/
+    background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -21,7 +25,7 @@ a {
 /*Header*/
 
 header {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 header .logo {
@@ -115,12 +119,12 @@ header .categorias a {
  .main .texto h1 {
      margin-bottom: 10px;
      font-weight: bold;
-     font-size: 18px;
+     font-size: 24px;
 
  }
  .main .texto p {
     margin-bottom: 10px;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 .main .cv {
@@ -128,7 +132,7 @@ header .categorias a {
 }
 
  .main .cv img{
-    width: 55%;
+    width: 90%;
     max-width: 1600px;
     text-align: center; 
     cursor: pointer;

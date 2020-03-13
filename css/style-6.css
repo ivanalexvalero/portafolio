@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 body {
-    background: #ffffff;
+    /*background: #F48F8D;*/
+    background: #DD5E89;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -31,12 +35,12 @@ header .logo {
 
 header .logo h1 {
    font-family: 'Varela Round', sans-serif; 
-   color: #000000;
+   color: #ffffff;
 }
 
 
 header .logo p {
-    color: #000000;
+    color: #ffffff;
     font-size: 16px;
 }
 header form {
@@ -63,7 +67,7 @@ header .titulos, header .categorias {
 }
 
 header .titulos a {
-    color: #9d9d9d;
+    color: #ffffff;
     font-size: 16px;
     margin: 10px 20px;
 }
@@ -96,15 +100,13 @@ header .categorias a {
 
  /*Imagenes*/
 
- .una-foto .logo  {
-    max-width: 1400px;
-    width: 100%;
-    margin-bottom: 20px;
+ .una-foto h1 {
+    font-size: 23px;
  }
 
   .una-foto img {
     max-width: 1400px;
-    width: 90%;
+    width: 20%;
     margin-bottom: 20px;
  }
 
@@ -150,7 +152,7 @@ header .categorias a {
 }
 
 .footer .data {
-    color: #000000;
+    color: #ffffff;
     font-size: 12px;
     text-align: center;
     margin: auto;

@@ -4,7 +4,23 @@
     box-sizing: border-box;
 }
 body {
-    background: #000000;
+    /*background: #1abc9c;
+    background: #403D40;
+    background: -webkit-linear-gradient(left,  #1abc9c 30%, #403D40 100%);
+        -webkit-background-clip: content-box;*/
+    /*        background: #C33764;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/*background: #FF512F;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -37,7 +53,7 @@ header .logo h1 {
 
 header .logo p {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 18px;
 }
 header form {
     width: 100%;
@@ -63,7 +79,7 @@ header .titulos, header .categorias {
 }
 
 header .titulos a {
-    color: #9b9b9b;
+    color: #000000;
     font-size: 16px;
     margin: 10px 20px;
 }
@@ -76,7 +92,7 @@ header .titulos {
     margin-bottom: 8px;
 }
 header .categorias a {
-    color: #9b9b9b;
+    color: #000000;
     margin: 10px 20px;
     font-size: 14px;
 }

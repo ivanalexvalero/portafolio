@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 body {
-    background: #000000;
+    /*background: #000000;*/
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -94,6 +98,10 @@ header .categorias a {
     flex-direction: row;
  }
 
+.main h1 {
+    margin-bottom: 10px;
+}
+
 .main .datos {
     color: #ffffff;
     font-size: 16px;
@@ -103,6 +111,7 @@ header .categorias a {
 
 .main .datos h3 {
     font-weight: 100;
+    margin-bottom: 10px;
 }
 
 .main .los-datos {
